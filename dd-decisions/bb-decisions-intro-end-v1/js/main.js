@@ -4,7 +4,7 @@
 //otherwise, add it back!
 
 // 1. select the target element
-var featureImage = document.querySelector('img.feature');
+var featureImage = document.querySelector('img.feature'); //selects img class="feature"
 // 2. add event listener
 featureImage.addEventListener('click', handleFeatureClick);
 // 3. create the event listener function or event handler.
