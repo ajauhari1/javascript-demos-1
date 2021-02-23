@@ -20,8 +20,8 @@ function thumbnailSizeHandler(evt) {
 	// if (evt.target.classList.contains('active') != true)
 	if (!evt.target.classList.contains('active')) {
 		// update the active li
-		document.querySelector('li.active').classList.remove('active');
-		evt.target.classList.add('active');
+		document.querySelector('li.active').classList.remove('active'); //removes active from the one that isnt clicked
+		evt.target.classList.add('active'); // adds acitce to the one we are now clicking
 		if (evt.target.classList.contains('thumbnails-sm')) {
 			thumbnails.classList.remove('md');
 			thumbnails.classList.remove('lg');

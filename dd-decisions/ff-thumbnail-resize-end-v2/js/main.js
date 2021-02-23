@@ -29,3 +29,28 @@ function thumbnailSizeHandler(evt) {
 		}
 	}
 }
+
+// document.querySelector('ul.thumbnail-sizes').addEventListener('click', thumSize);
+
+// function thumSize(evt) {
+// 	var thumbSelec = document.querySelector('div.thumbnails');
+// 	if (!evt.target.classList.contains('active')) {
+
+// 		document.querySelector('li.active').classList.remove('active');
+// 		evt.target.classList.add('active');
+// 		if (evt.target.classList.contains('thumbnails-sm')) {
+// 			thumbSelec.classList.remove('md');
+// 			thumbSelec.classList.remove('lg');
+// 			thumbSelec.classList.add('sm');
+// 		} else if (evt.target.classList.contains('thumbnails-md')) {
+// 			thumbSelec.classList.remove('sm');
+// 			thumbSelec.classList.remove('lg');
+// 			thumbSelec.classList.add('md');
+// 		} else {
+// 			thumbSelec.classList.remove('sm');
+// 			thumbSelec.classList.remove('md');
+// 			thumbSelec.classList.add('lg')
+// 		}
+// 	}
+
+// }
